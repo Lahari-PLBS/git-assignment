@@ -1,0 +1,17 @@
+git config --global user.name/user.email : Sets my identity for commits.
+git init : Initializes a new Git repository in the folder.
+git branch -M main : Renames the current branch to main.
+git status : Shows changed, staged and untracked files.
+git add <file> / git add . : Stages changes for the next commit.
+git commit -m "msg" : Saves staged changes as a commit with a message.
+git branch : Lists branches; highlights the current one.
+git branch feature : Creates a new branch named feature.
+git switch <branch> : Switches to the given branch.
+git merge --no-ff feature : Merges feature into main with a merge commit.
+git log --oneline --graph --all : Shows compact commit history with branch graph.
+cat .gitignore : Displays the contents of the .gitignore file.
+git revert HEAD --no-edit : Undoes the last commit by creating a new reverting commit.
+git remote add origin <URL> : Links the local repo to the GitHub repo.
+git push -u origin main : Pushes main to GitHub and sets upstream tracking.
+git push origin feature : Pushes the feature branch to GitHub.
+mkdir / cd / ls / echo : Shell commands to create folders/files and navigate.
